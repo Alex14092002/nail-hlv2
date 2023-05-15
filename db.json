@@ -1,7 +1,11 @@
 {
   "home": [
     {
-      "banner": "https://cdn.shopify.com/s/files/1/0572/0637/4587/files/Homepage_Slider_Banners-02_2000x.png?v=1675297281"
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/files/Homepage_Slider_Banners-02_2000x.png?v=1675297281",
+      "img2":"https://cdn.shopify.com/s/files/1/0572/0637/4587/files/Desktop_-_5_2000x.png?v=1682022916",
+      "img3":"https://cdn.shopify.com/s/files/1/0572/0637/4587/files/Desktop_-_4_2000x.png?v=1682020814",
+      "img4":"https://cdn.shopify.com/s/files/1/0572/0637/4587/files/Desktop_-_3_c72e967b-8b21-4acf-9954-eca271c63fa0_2000x.png?v=1682020923",
+      "img5":"https://cdn.shopify.com/s/files/1/0572/0637/4587/files/Desktop_-_5_2000x.png?v=1682022916"
     }
   ],
   "single": [
