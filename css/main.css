@@ -715,7 +715,7 @@ nav .navbar .links li .sub-menu li{
 .item-detail h5{
   margin-bottom: 30px;
 }
-.item-detail a{
+.item-detail button{
   
     text-decoration: none;
     cursor: pointer;
@@ -726,7 +726,7 @@ nav .navbar .links li .sub-menu li{
     font-weight: bold;
     border-radius: 30px;
 }
-.item-detail a:hover{
+.item-detail button:hover{
     border: #000000 2px solid;
     background-color: #ffffff;
     color: #000000 !important ;
@@ -1031,6 +1031,44 @@ input[type=number]::-webkit-outer-spin-button {
   display: flex;
   justify-content: center;
 }
+#labelLenght{
+  margin-bottom: 0px !important;
+  font-size: 18px;
+}
+.more-item label{
+  margin-bottom: 0px;
+}
+.more-item{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.select select{
+  margin-left: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.quantity{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 10px;
+}
+.btn-quantity button{
+  padding: 0px 10px;
+}
+.valQuantity input{
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;  
+  width: 40px;
+  padding: 0px 10px;
+}
+.speacial-quantity{
+  margin-bottom: 30px;
+}
 /* Responsive layout */
 @media (max-width: 800px) {
   .sumPrice h1{
@@ -1039,7 +1077,15 @@ input[type=number]::-webkit-outer-spin-button {
   .col-25 {
     margin-bottom: 20px;
   }
-  .item-detail a{
+  .item-detail button{
     padding: 10px 20%;
+    width: 100%;
   }
-}
+  .btn-quantity button{
+    padding: 0px 10px;
+  }
+  .valQuantity input{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}     

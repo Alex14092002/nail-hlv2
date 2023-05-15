@@ -51,13 +51,74 @@
             <h1>${product.name}</h1>
             <p>${product.describe}</p>
             <h3>$${product.price} USD</h3>
-            <a href="./thanhtoan-fornail.html?id=${id_item}" >BUY NOW</a>
+
+            <div class="quantity speacial-quantity">
+            <div class="btn-quantity">
+            <button id="tru">-</button>
+            </div>
+
+            <div class="valQuantity">
+
+            
+            <input type="text" value=1 id="valquantity" />
+            </div>
+
+            
+
+            <div class="btn-quantity">
+            <button id="cong">+</button>
+            </div>
+
+            </div>
+            <button class="addtoCart">ADD TO BAG</button>
         </div>
     
     </div>
-        `
+        `;
+      
     }
-  
+
+      // Lấy tham chiếu đến các phần tử cần thiết
+   const btnQuantityDecrease = document.querySelector(
+    "#tru"
+  );
+ 
+  const btnQuantityIncrease = document.querySelector(
+    "#cong"
+  );
+  const valQuantity = document.querySelector("#valquantity");
+
+  console.log(btnQuantityDecrease , btnQuantityIncrease);
+  // Thiết lập sự kiện click cho nút tăng
+  btnQuantityIncrease.addEventListener("click", () => {
+    // Tăng giá trị số lượng
+    valQuantity.value = parseInt(valQuantity.value) + 1;
+  });
+
+  // Thiết lập sự kiện click cho nút giảm
+  btnQuantityDecrease.addEventListener("click", () => {
+    // Giảm giá trị số lượng không nhỏ hơn 1
+    if (parseInt(valQuantity.value) > 1) {
+      valQuantity.value = parseInt(valQuantity.value) - 1;
+    }
+  });
+
+
+  const valquantity = document.querySelector("#valquantity");
+  const addtoCart = document.querySelector(".addtoCart");
+  console.log(addtoCart);
+  addtoCart.addEventListener("click", () => {
+    giohang(
+      product.id,
+      product.name,
+      product.price,
+      product.img1,
+      valquantity.value,
+      "none",
+      "none",
+      "none"
+    );
+  });
     let listDivImg =  document.querySelectorAll('.list-img div')
    
     let next = document.querySelector('.next')

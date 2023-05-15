@@ -16,122 +16,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Classic Lash Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-      "curlType":"slice",
-      "quanity":"3"
-    },
-    {
-      
-      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
-      "id": 1,
-      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
-      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
-      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
-      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
-      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
-      "name": "Volume Lash Kit",
-      "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3"
-    },
-    {
-      
-      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
-      "id": 2,
-      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
-      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
-      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
-      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
-      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
-      "name": "Mixed PRO Kit",
-      "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3"
-    },
-    {
-      
-      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
-      "id": 3,
-      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
-      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
-      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
-      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
-      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
-      "name": "Mega Volume Kit",
-      "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3"
-    },
-    {
-      
-      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
-      "id": 4,
-      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
-      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
-      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
-      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
-      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
-      "name": "Lash and Brow Lamination Kit",
-      "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3"
-    },
-    {
-      
-      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
-      "id": 5,
-      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
-      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
-      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
-      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
-      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
-      "name": "Lash Lift Kit",
-      "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3"
-    },
-    {
-      
-      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
-      "id": 6,
-      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
-      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
-      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
-      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
-      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
-      "name": "Lash lift complete kit",
-      "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3"
-    },
-    {
-      
-      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
-      "id": 7,
-      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
-      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
-      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
-      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
-      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
-      "name": "Classic Practice Kit",
-      "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3"
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ]
     }
   ],
   "premade": [
@@ -146,10 +39,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Classic Lash Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-      "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"3D"
     },
     {
@@ -163,10 +61,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Volume Lash Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"4D"
     },
     {
@@ -180,10 +83,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Mixed PRO Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"5D"
     },
     {
@@ -197,10 +105,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Mega Volume Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"6D"
     },
     {
@@ -214,10 +127,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Lash and Brow Lamination Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"7D"
     },
     {
@@ -231,10 +149,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Lash Lift Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"8D"
     },
     {
@@ -248,10 +171,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Lash lift complete kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"9D"
     },
     {
@@ -265,10 +193,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Classic Practice Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"10D"
     },
     {
@@ -282,10 +215,15 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Classic Practice Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"11D"
     },
     {
@@ -299,14 +237,117 @@
       "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
       "name": "Classic Practice Kit",
       "price": "100",
-      "length":"100",
-      "diameter":"100",
-       "curlType":"slice",
-      "quanity":"3",
+      "length":[
+        8,9,10,11,12,13,14,15,16,17,18,19,20
+      ],
+      "diameter":[
+        0.1 , 0.12 , 0.15
+      ],
+      "curlType":[
+        "C" , "CC" , "D"
+      ],
       "type":"12D"
     }
   ],
   "productfornail": [
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 0,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Classic Lash Kit",
+      "price": "100"
+    },
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 1,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Volume Lash Kit",
+      "price": "100"
+    },
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 2,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Mixed PRO Kit",
+      "price": "100"
+    },
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 3,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Mega Volume Kit",
+      "price": "100"
+    },
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 4,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Lash and Brow Lamination Kit",
+      "price": "100"
+    },
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 5,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Lash Lift Kit",
+      "price": "100"
+    },
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 6,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Lash lift complete kit",
+      "price": "100"
+    },
+    {
+      
+      "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",
+      "id": 7,
+      "img1": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_1_1512x.jpg?v=1656441174",
+      "img2": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_2_1512x.jpg?v=1656441177",
+      "img3": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_3_1512x.jpg?v=1656441177",
+      "img4": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/Mixed_Kit_Website_4_120x.jpg?v=1656441181",
+      "img5": "https://cdn.shopify.com/s/files/1/0572/0637/4587/products/SLP_Rose-11-Mixedkit_120x.jpg?v=1656441182",
+      "name": "Classic Practice Kit",
+      "price": "100"
+    }
+  ],
+  "handmadeproduct": [
     {
       
       "describe": "Get all of your classic lashing essentials in one kit! With two pairs of tweezers, lash trays, Lash Pure Cleanser, brushes, and more, The Classic Kit is perfect for new artists wanting to try out some of the Sugarlash PRO essentials and is the ultimate setup for seasoned classic artists.",

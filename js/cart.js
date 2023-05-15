@@ -16,6 +16,7 @@ const deleteCart = (id) =>{
 
 }
 
+
 var cart = JSON.parse(localStorage.getItem("cart"));
 const test = document.querySelector('.test-btn')
 
@@ -107,6 +108,7 @@ if(cart != null && cart.length >0){
             <button id="btn-push">Order Now</button>
         </div>
     `
+
     if(sum >= 175){
         document.querySelector("#cart-main").innerHTML += `
        
@@ -200,7 +202,7 @@ for (let i = 0; i < input.length; i++) {
 
 
 
-
+// customer info
 
 let customerCount = 0;
 const btnPush = document.querySelector('#btn-push')
@@ -237,10 +239,11 @@ btnPush.addEventListener('click', () => {
   };
 
   // PUT dữ liệu khách hàng lên realtime database
+
   fetch(`https://data-nail-hl-default-rtdb.firebaseio.com/customer/${customerId}.json`, {
     method: 'PUT',
     body: JSON.stringify(customerCart),
-  })
+  },)
     .then((response) => response.json())
     .then((data) => console.log(data))
     .catch((error) => console.error(error));

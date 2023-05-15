@@ -86,7 +86,7 @@
                     <h2>$${value.price} USD</h2>
                 </div>
                 <div class="btn-add-cart">
-                    <button onclick="giohang(${key},'${value.name}',${value.price},'${value.img1}')">ADD TO BAG</button>
+                    <a  href="./detail-product-fornail.html?id=${key}" >VIEWS DETAILS</a>
                 </div>
 
             </div>

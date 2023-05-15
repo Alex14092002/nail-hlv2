@@ -39,28 +39,34 @@
 
 // }
 
+
+
 var cart = JSON.parse(localStorage.getItem("cart")) || [];
  // khởi tạo 1 cái item tên cart trong localstorarge với kiểu là mảng rỗng
 
-function giohang(id, ten, gia, hinh){
+function giohang(id, ten, gia, hinh , quantity , length , diameter , curlType ){
   var found = false; // biến để tìm kiếm
   
   for (var i = 0; i < cart.length; i++) {
-    if (cart[i].id === id) {
+    if (cart[i].id === id && cart[i].length === length && cart[i].diameter === diameter && cart[i].curlType === curlType) {
       found = true;
       break;
     }
   }
   
   if (!found) {
-    console.log("Thêm vào giỏ hàng thành công!");
+    
     cart.push({
       id:id,
       name:ten,
       price:gia,
       img1:hinh,
-      soluong: 1
+      quantity: quantity,
+      length : length,
+      diameter : diameter ,
+      curlType : curlType
     });
+
     
     localStorage.setItem("cart", JSON.stringify(cart));
   } else {
@@ -90,9 +96,9 @@ header.innerHTML += `
     <ul class="links">
       <li><a href="index.html">HOME</a></li>
       <li><a href="services.html">SERVICES</a></li>
-      <li><a href="product-for-nail.html">PRODUCT FOR NAIL</a></li>
+      <li><a href="product-for-nail.html">NAIL PRODUCT</a></li>
       <li>
-        <a href="#">PRODUCT FOR LASH</a>
+        <a href="#">LASH PRODUCT</a>
         <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
         <ul class="htmlCss-sub-menu sub-menu">
             <li><a href="./single.html">SINGLE - LENGTH TRAY</a></li>
@@ -100,6 +106,8 @@ header.innerHTML += `
             
         </ul>
       </li>
+      <li><a href="product-for-nail.html">HAND MADEPRODUCT</a></li>
+      <li>
     
   
       <li><a href="about.html">ABOUT US</a></li>
