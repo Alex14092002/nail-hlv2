@@ -1,45 +1,3 @@
-// var cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-
-
-
-// function giohang(id, ten, gia, hinh){
-//   var cart = JSON.parse(localStorage.getItem("cart"));
-//   if (cart==null) {
-//     cart=[];
-//       console.log("Thêm vào giỏ hàng thành công!");
-//       cart.push({
-//         id:id,
-//         name:ten,
-//         price:gia,
-//         img1:hinh
-//         });
-//   }else{
-//       var item = cart.find(item => item.id === id );
-      
-//       if(item) { 
-//           console.log("Sản phẩm đã có trong giỏ hàng!");
-         
-         
-//       }
-//       else {
-//           console.log("Thêm vào giỏ hàng thành công!");
-         
-//           cart.push({
-            
-//             id:id,
-//             name:ten, 
-//             price:gia,
-//             img1:hinh
-//             })
-//       };
-//   }
-//       var cartLength = cart.length;
-//       document.querySelector('.booking span').textContent = cartLength;
-
-// }
-
-
 
 var cart = JSON.parse(localStorage.getItem("cart")) || [];
  // khởi tạo 1 cái item tên cart trong localstorarge với kiểu là mảng rỗng
@@ -59,7 +17,7 @@ function giohang(id, ten, gia, hinh , quantity , length , diameter , curlType ){
     cart.push({
       id:id,
       name:ten,
-      price:gia,
+      price:gia * quantity,
       img1:hinh,
       quantity: quantity,
       length : length,
@@ -69,6 +27,8 @@ function giohang(id, ten, gia, hinh , quantity , length , diameter , curlType ){
 
     
     localStorage.setItem("cart", JSON.stringify(cart));
+    
+    
   } else {
     console.log("Sản phẩm đã có trong giỏ hàng!");
   }
@@ -106,7 +66,7 @@ header.innerHTML += `
             
         </ul>
       </li>
-      <li><a href="product-for-nail.html">HAND MADEPRODUCT</a></li>
+      <li><a href="hand.html">HAND MADEPRODUCT</a></li>
       <li>
     
   

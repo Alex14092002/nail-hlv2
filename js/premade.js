@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="btn-add-cart">
-                    <a>BUY NOW</a>
+                    <button>ADD TO BAG</button>
                 </div>
 
             </div>
