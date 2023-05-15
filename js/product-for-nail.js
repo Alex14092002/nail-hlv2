@@ -27,7 +27,7 @@
                     <h2>$${value.price} USD</h2>
                 </div>
                 <div class="btn-add-cart">
-                    <a href="./detail-product-fornail.html?id=${key}">BUY NOW</a>
+                    <a href="./detail-product-fornail.html?id=${key}">VIEWS DETAIL</a>
                 </div>
 
             </div>
