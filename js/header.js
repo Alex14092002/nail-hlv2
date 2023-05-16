@@ -66,7 +66,7 @@ header.innerHTML += `
             
         </ul>
       </li>
-      <li><a href="hand.html">HAND MADEPRODUCT</a></li>
+      <li><a href="hand.html">ACCESSORIES</a></li>
       <li>
     
   

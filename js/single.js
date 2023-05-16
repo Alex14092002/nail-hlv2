@@ -20,7 +20,7 @@
               
                 
                 <div class="name-product">
-                    <h2>${value.name}</h2>
+                    <h2>${value.name}</h2>  
                 </div>
                 <div class="price-product">
                     <h2>$${value.price} USD</h2>

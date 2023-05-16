@@ -96,12 +96,26 @@ if (cart != null && cart.length > 0) {
                 <input type="text" name="" id="postalCode" placeholder="Enter Postal Code">
             </div>
             <div class="input-item col-12 col-md-6">
-                <label for="">State </label> 
-                <input type="text" name="" id="state" placeholder="Enter State">
+                <label for="state">State </label> 
+                <select name="" id="state">
+                <option value="Alberta">Alberta</option>
+                <option value="British Columbia">British Columbia</option>
+                <option value="New Brunswick">New Brunswick</option>
+                <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                <option value="Nova Scotia">Nova Scotia</option>
+                <option value="Northwest Territories">Northwest Territories</option>
+                <option value="Nunavut">Nunavut</option>
+                <option value="Ontario">Ontario</option>
+                <option value="Prince Edward Island">Prince Edward Island</option>
+                <option value="Quebec">Quebec</option>
+                <option value="Saskatchewan">Saskatchewan</option>
+                <option value="Yukon">Yukon</option>
+              </select>
+            
             </div>
             <div class="input-item col-12 col-md-6">
                 <label for="">Country/Region </label> 
-                <input type="text" name="" id="country" placeholder="Enter Country/Region">
+                <input type="text" name="" id="country" value="Canada" readonly placeholder="Enter Country/Region">
             </div>
             <div class="input-item col-12 col-md-6">
                 <label for="">Phone Number </label> 
