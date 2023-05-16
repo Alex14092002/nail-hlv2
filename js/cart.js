@@ -1,3 +1,5 @@
+
+  
 const deleteCart = (id) => {
 
 
@@ -11,7 +13,9 @@ const deleteCart = (id) => {
     localStorage.setItem("cart", JSON.stringify(cart));
 
     setTimeout(function() {
+        
         window.location.reload();
+
     }, 100)
 
 }
@@ -169,57 +173,6 @@ if (cart != null && cart.length > 0) {
 
 
 
-
-
-
-
-// customer info
-
-// let customerCount = 0;
-// const btnPush = document.querySelector('#btn-push')
-// btnPush.addEventListener('click', () => {
-//     // Lấy thông tin khách hàng
-    // const firstName = document.querySelector('#firstName').value;
-    // const lastName = document.querySelector('#lastName').value;
-    // const companyName = document.querySelector('#companyName').value;
-    // const address1 = document.querySelector('#address1').value;
-    // const address2 = document.querySelector('#address2').value;
-    // const city = document.querySelector('#city').value;
-    // const postalCode = document.querySelector('#postalCode').value;
-    // const state = document.querySelector('#state').value;
-    // const country = document.querySelector('#country').value;
-    // const phoneNumber = document.querySelector('#phoneNumber').value;
-
-    // const cartItems = JSON.parse(localStorage.getItem('cart'));
-
-//     // Tạo ID duy nhất cho khách hàng
-//     const customerId = customerCount++;
-
-//     const customerCart = {
-        // firstName: firstName,
-        // lastName: lastName,
-        // companyName: companyName,
-        // address1: address1,
-        // address2: address2,
-        // city: city,
-        // postalCode: postalCode,
-        // state: state,
-        // country: country,
-        // phoneNumber: phoneNumber,
-        // cartItems: cartItems,
-        // total : sum
-//     };
-
-//     // PUT dữ liệu khách hàng lên realtime database
-
-//     fetch(`https://data-nail-hl-default-rtdb.firebaseio.com/customer/${customerId}.json`, {
-//             method: 'PUT',
-//             body: JSON.stringify(customerCart),
-//         }, )
-//         .then((response) => response.json())
-//         .then((data) => console.log(data))
-//         .catch((error) => console.error(error));
-// });
 const btnPush = document.querySelector('#btn-push');
 btnPush.addEventListener('click', () => {
   // Lấy thông tin khách hàng
@@ -235,7 +188,6 @@ btnPush.addEventListener('click', () => {
   const phoneNumber = document.querySelector('#phoneNumber').value;
   const cartItems = JSON.parse(localStorage.getItem('cart'));
 
-
   // Tạo đối tượng khách hàng
   const customer = {
     firstName: firstName,
@@ -249,7 +201,7 @@ btnPush.addEventListener('click', () => {
     country: country,
     phoneNumber: phoneNumber,
     cartItems: cartItems,
-    total : sum
+    total: sum
   };
 
   // Gửi dữ liệu khách hàng đến máy chủ
@@ -263,8 +215,27 @@ btnPush.addEventListener('click', () => {
     .then((response) => response.json())
     .then((data) => {
       console.log(data); // Xử lý phản hồi từ máy chủ
+      
+      // Display success notification
+      alert('Data has been successfully pushed.');
+
+      // Clear shopping cart in local storage
+      localStorage.removeItem('cart');
+
+
+      // Clear input values
+      document.querySelector('#firstName').value = '';
+      document.querySelector('#lastName').value = '';
+      document.querySelector('#companyName').value = '';
+      document.querySelector('#address1').value = '';
+      document.querySelector('#address2').value = '';
+      document.querySelector('#city').value = '';
+      document.querySelector('#postalCode').value = '';
+      document.querySelector('#state').value = 'Alberta';
+      document.querySelector('#phoneNumber').value = '';
     })
     .catch((error) => {
       console.error(error); // Xử lý lỗi
     });
 });
+
