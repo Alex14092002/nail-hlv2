@@ -19,16 +19,7 @@ const deleteCart = (id) => {
     }, 100)
 
 }
-
-
 var cart = JSON.parse(localStorage.getItem("cart"));
-
-
-
-// test.addEventListener('click', () =>{
-//     cart[0].soluong ++;
-//     localStorage.setItem('cart', JSON.stringify(cart));
-// })
 
 const formCustomer = document.querySelector('.info-customer')
 var sum = 0;
@@ -233,6 +224,7 @@ btnPush.addEventListener('click', () => {
       document.querySelector('#postalCode').value = '';
       document.querySelector('#state').value = 'Alberta';
       document.querySelector('#phoneNumber').value = '';
+      window.location.reload()
     })
     .catch((error) => {
       console.error(error); // Xử lý lỗi
