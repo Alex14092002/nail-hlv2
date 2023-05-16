@@ -713,7 +713,10 @@ nav .navbar .links li:hover .js-sub-menu {
 .list-img {
     display: flex;
 }
-
+button {
+    touch-action: manipulation;
+  }
+  
 .list-img div {
     cursor: pointer;
     padding: 5px;
