@@ -30,19 +30,19 @@
               </div>
               <div class="list-img">
                 <div>
-                  <img src="${product.img1}" alt="" />
+                  <img src="${product.img1}" alt="${product.name}" />
                 </div>
                 <div>
-                  <img src="${product.img2}" alt="" />
+                  <img src="${product.img2}" alt="${product.name}" />
                 </div>
                 <div>
-                  <img src="${product.img3}" alt="" />
+                  <img src="${product.img3}" alt="${product.name}" />
                 </div>
                 <div>
-                  <img src="${product.img4}" alt="" />
+                  <img src="${product.img4}" alt="${product.name}" />
                 </div>
                 <div>
-                  <img src="${product.img5}" alt="" />
+                  <img src="${product.img5}" alt="${product.name}" />
                 </div>
                 
               </div>

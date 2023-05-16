@@ -3,7 +3,7 @@ const footer = document.querySelector('#footer')
 footer.innerHTML += `
 <div class="footer row">
 <div class="item-footer col-12 col-md-3">
-    <img src="./image/logov3.jpg" alt="" width="70%">
+    <img src="./image/logov3.jpg" alt="logo" width="70%">
 </div>
 <div class="item-footer col-12 col-md-3">
     <ul>

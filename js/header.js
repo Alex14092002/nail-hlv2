@@ -50,7 +50,7 @@ header.innerHTML += `
   <div class="logo"><a href="index.html"><img src="./image/logov3.jpg" alt="" width="60px"></a></div>
   <div class="nav-links">
     <div class="sidebar-logo">
-      <span class="logo-name"><img src="./image/logov3.jpg" alt="" width="60px"></span>
+      <span class="logo-name"><img src="./image/logov3.jpg" alt="logo" width="60px"></span>
       <i class='bx bx-x' ></i>
     </div>
     <ul class="links">

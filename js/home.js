@@ -17,6 +17,7 @@
         width="100%"
         height="700px"
         src="${dataMain.img1}"
+        alt "${dataMain.img1}"
       />
     </div>
     <div class="slide" data-slideIndex="1">
@@ -25,6 +26,7 @@
         width="100%"
         height="700px"
         src="${dataMain.img2}"
+        alt="slider-home"
       />
     </div>
     <div class="slide" data-slideIndex="2">
@@ -33,6 +35,7 @@
         width="100%"
         height="700px"
         src="${dataMain.img3}"
+        alt="slider-home"
       />
     </div>
     <div class="slide" data-slideIndex="3">
@@ -41,6 +44,7 @@
         width="100%"
         height="700px"
         src="${dataMain.img4}"
+        alt="slider-home"
       />
     </div>
     <div class="slide" data-slideIndex="4">
@@ -49,6 +53,7 @@
         width="100%"
         height="700px"
         src="${dataMain.img5}"
+        alt="slider-home"
       />
     </div>
   </div>

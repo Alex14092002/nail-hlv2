@@ -15,7 +15,7 @@
             <div class="product-mini">
                 <a href="./detail-hand.html?id=${key}">
                     <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+                        <img src="${value.img1}" alt="${value.name}" width="100%">
                     </div>
                 </a>
               

@@ -30,7 +30,7 @@ if (cart != null && cart.length > 0) {
         document.querySelector("#cart-main").innerHTML += `
     <div class="cart-main row">
     <div class="item-cart-main col-3 col-md-4">
-        <img src="${value.img1}" alt=""  >
+        <img src="${value.img1}" alt="${value.name}"  >
     </div>
     <div class="item-cart-main col-4 col-md-3">
         <h3>${value.name}</h3>
