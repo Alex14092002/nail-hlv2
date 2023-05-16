@@ -98,7 +98,7 @@
             </div>
             </div>
             
-            <button  class="addtoCart">BUY NOW</button>
+            <button  class="addtoCart">ADD TO BAG</button>
         </div>
     
     </div>
