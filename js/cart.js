@@ -165,7 +165,7 @@ if (cart != null && cart.length > 0) {
 
 
 const btnPush = document.querySelector('#btn-push');
-btnPush.addEventListener('click', () => {
+btnPush.addEventListener('click',  () => {
   // Lấy thông tin khách hàng
   const firstName = document.querySelector('#firstName').value;
   const lastName = document.querySelector('#lastName').value;
@@ -226,7 +226,8 @@ const status = "Delivering"
       document.querySelector('#postalCode').value = '';
       document.querySelector('#state').value = 'Alberta';
       document.querySelector('#phoneNumber').value = '';
-     
+    
+       window.location.reload();
     })
     .catch((error) => {
       console.error(error); // Xử lý lỗi
