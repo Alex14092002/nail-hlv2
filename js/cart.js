@@ -178,9 +178,10 @@ btnPush.addEventListener('click', () => {
   const country = document.querySelector('#country').value;
   const phoneNumber = document.querySelector('#phoneNumber').value;
   const cartItems = JSON.parse(localStorage.getItem('cart'));
-
+const status = "Delivering"
   // Tạo đối tượng khách hàng
   const customer = {
+    status : status,
     firstName: firstName,
     lastName: lastName,
     companyName: companyName,
@@ -192,6 +193,7 @@ btnPush.addEventListener('click', () => {
     country: country,
     phoneNumber: phoneNumber,
     cartItems: cartItems,
+   
     total: sum
   };
 
@@ -224,7 +226,7 @@ btnPush.addEventListener('click', () => {
       document.querySelector('#postalCode').value = '';
       document.querySelector('#state').value = 'Alberta';
       document.querySelector('#phoneNumber').value = '';
-      window.location.reload()
+     
     })
     .catch((error) => {
       console.error(error); // Xử lý lỗi
