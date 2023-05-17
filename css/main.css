@@ -404,6 +404,7 @@ nav .navbar .links li:hover .js-sub-menu {
     cursor: pointer;
     border: solid #d7d6dc 1px;
     margin-bottom: 20px;
+    height:500px;
 }
 
 .btn-add-cart {
@@ -1165,5 +1166,7 @@ input[type=number]::-webkit-outer-spin-button {
         width: 32px;
         height: 32px;
     }
-  
+    .img-product img{
+        height: 300px;
+    }
 }
