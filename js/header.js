@@ -18,6 +18,7 @@ function giohang(id, ten, gia, hinh , quantity , length , diameter , curlType ){
       id:id,
       name:ten,
       price:gia * quantity,
+      Singleprice : gia,
       img1:hinh,
       quantity: quantity,
       length : length,

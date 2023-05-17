@@ -193,7 +193,6 @@ const status = "Delivering"
     country: country,
     phoneNumber: phoneNumber,
     cartItems: cartItems,
-   
     total: sum
   };
 
