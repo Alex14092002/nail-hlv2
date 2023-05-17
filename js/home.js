@@ -244,7 +244,7 @@
 
   if (product) {
     for (const [key, value] of Object.entries(product)) {
-      if(value !=nul){
+      if(value !=null){
         services.innerHTML += `
         <div class="product-item col-6 col-md-3">
         <div class="product-mini">
