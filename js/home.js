@@ -157,29 +157,32 @@
 
 
     for (const [key, value] of Object.entries(product)) {
-      services.innerHTML += `
-      <div class="product-item col-6 col-md-3">
-      <div class="product-mini">
-          <a href="./detail-services.html?id=${key}">
-              <div class="img-product">
-                  <img src="${value.img1}" alt="" width="100%">
-              </div>
-          </a>
+      if(value != null){
+        services.innerHTML += `
+        <div class="product-item col-6 col-md-3">
+        <div class="product-mini">
+            <a href="./detail-services.html?id=${key}">
+                <div class="img-product">
+                    <img src="${value.img1}" alt="" width="100%">
+                </div>
+            </a>
+          
+            <div class="name-product">
+                <h2>${value.name}</h2>
+            </div>
+            <div class="price-product">
+                <h2>$${value.price} USD</h2>
+            </div>
+            <div class="btn-add-cart">
+                <a href="https://www.fresha.com/fr/a/hl-beauty-ottawa-50-westwood-drive-htz1l02f/booking?menu=true" target="_blank" >BOOKING</a>
+            </div>
+  
+        </div>
         
-          <div class="name-product">
-              <h2>${value.name}</h2>
-          </div>
-          <div class="price-product">
-              <h2>$${value.price} USD</h2>
-          </div>
-          <div class="btn-add-cart">
-              <a href="https://www.fresha.com/fr/a/hl-beauty-ottawa-50-westwood-drive-htz1l02f/booking?menu=true" target="_blank" >BOOKING</a>
-          </div>
-
-      </div>
-      
-  </div>   
-      `;
+    </div>   
+        `;
+      }
+    
     }
 
    
@@ -198,30 +201,33 @@
 
   if (product) {
     for (const [key, value] of Object.entries(product)) {
-      services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-product-fornail.html?id=${key}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
-                    </div>
-                </a>
-              
-                
-                <div class="name-product">
-                    <h2>${value.name}</h2>
+      if(value != null){
+        services.innerHTML += `
+        <div class="product-item col-6 col-md-3">
+        <div class="product-mini">
+            <a href="./detail-product-fornail.html?id=${key}">
+                <div class="img-product">
+                    <img src="${value.img1}" alt="" width="100%">
                 </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-                <div class="btn-add-cart">
-                    <a  href="./detail-product-fornail.html?id=${key}" >VIEWS DETAILS</a>
-                </div>
-
-            </div>
+            </a>
+          
             
-        </div>   
-            `;
+            <div class="name-product">
+                <h2>${value.name}</h2>
+            </div>
+            <div class="price-product">
+                <h2>$${value.price} USD</h2>
+            </div>
+            <div class="btn-add-cart">
+                <a  href="./detail-product-fornail.html?id=${key}" >VIEWS DETAILS</a>
+            </div>
+
+        </div>
+        
+    </div>   
+        `;
+      }
+     
     }
   
   }
@@ -238,30 +244,33 @@
 
   if (product) {
     for (const [key, value] of Object.entries(product)) {
-      services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-hand.html?id=${key}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
-                    </div>
-                </a>
-              
-                
-                <div class="name-product">
-                    <h2>${value.name}</h2>
+      if(value !=nul){
+        services.innerHTML += `
+        <div class="product-item col-6 col-md-3">
+        <div class="product-mini">
+            <a href="./detail-hand.html?id=${key}">
+                <div class="img-product">
+                    <img src="${value.img1}" alt="" width="100%">
                 </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-                <div class="btn-add-cart">
-                    <a  href="./detail-hand.html?id=${key}" >VIEWS DETAILS</a>
-                </div>
-
-            </div>
+            </a>
+          
             
-        </div>   
-            `;
+            <div class="name-product">
+                <h2>${value.name}</h2>
+            </div>
+            <div class="price-product">
+                <h2>$${value.price} USD</h2>
+            </div>
+            <div class="btn-add-cart">
+                <a  href="./detail-hand.html?id=${key}" >VIEWS DETAILS</a>
+            </div>
+
+        </div>
+        
+    </div>   
+        `;
+      } 
+     
     }
   
   }

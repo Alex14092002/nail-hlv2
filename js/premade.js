@@ -12,33 +12,39 @@
     
 
     if(isFilter){
-        for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="${value.name}" width="100%">
+     
+            for (const [key, value] of Object.entries(isFilter)) {
+                if(value != null){
+                    services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="${value.name}" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <button>ADD TO BAG</button>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <button>ADD TO BAG</button>
-                </div>
-
-            </div>
+            </div>   
+                `
+                }
+                
             
-        </div>   
-            `
-        }
+            }
+     
       
     }
 
@@ -61,31 +67,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+        
         }
       
     }
@@ -110,31 +119,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null) {
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+         
         }
       
     }
@@ -158,31 +170,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+        
         }
       
     }
@@ -205,31 +220,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+           
         }
       
     }
@@ -252,31 +270,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+        
         }
       
     }
@@ -298,31 +319,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+          
         }
       
     }
@@ -345,31 +369,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+       
         }
       
     }
@@ -392,31 +419,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+         
         }
       
     }
@@ -439,31 +469,34 @@
 
     if(isFilter){
         for (const [key, value] of Object.entries(isFilter)) {
-            services.innerHTML += `
-            <div class="product-item col-6 col-md-3">
-            <div class="product-mini">
-                <a href="./detail-premade.html?id=${value.id}">
-                    <div class="img-product">
-                        <img src="${value.img1}" alt="" width="100%">
+            if(value != null){
+                services.innerHTML += `
+                <div class="product-item col-6 col-md-3">
+                <div class="product-mini">
+                    <a href="./detail-premade.html?id=${value.id}">
+                        <div class="img-product">
+                            <img src="${value.img1}" alt="" width="100%">
+                        </div>
+                    </a>
+                  
+                    
+                    <div class="name-product">
+                        <h2>${value.name}</h2>
                     </div>
-                </a>
-              
+                    <div class="price-product">
+                        <h2>$${value.price} USD</h2>
+                    </div>
+    
+                    <div class="btn-add-cart">
+                        <a>BUY NOW</a>
+                    </div>
+    
+                </div>
                 
-                <div class="name-product">
-                    <h2>${value.name}</h2>
-                </div>
-                <div class="price-product">
-                    <h2>$${value.price} USD</h2>
-                </div>
-
-                <div class="btn-add-cart">
-                    <a>BUY NOW</a>
-                </div>
-
-            </div>
-            
-        </div>   
-            `
+            </div>   
+                `
+            }
+       
         }
       
     }
